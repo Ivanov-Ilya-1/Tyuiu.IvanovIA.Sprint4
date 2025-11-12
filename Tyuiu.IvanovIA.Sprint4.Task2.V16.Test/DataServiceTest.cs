@@ -8,9 +8,9 @@ namespace Tyuiu.IvanovIA.Sprint4.Task2.V16.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            int[] nums = { 9, 6, 6, 9, 7, 8, 5, 9, 6, 6};
+            int[] nums = { 3, 8, 5, 7, 9, 2, 2, 6, 2, 9 };
             int res = ds.Calculate(nums);
-            int wait = 39;
+            int wait = 33;
             Assert.AreEqual(res, wait);
         }
     }
