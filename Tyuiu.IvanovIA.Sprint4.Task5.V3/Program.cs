@@ -35,7 +35,7 @@ namespace Tyuiu.IvanovIA.Sprint4.Task5.V3
                 {
                     if (nums[i, j] % 2 == 0)
                     {
-                        nums[i, j] = rnd.Next(-5,4);
+                        nums[i, j] = rnd.Next(-5, 4);
                     }
                 }
             }
